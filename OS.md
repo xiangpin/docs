@@ -1,6 +1,8 @@
 ## Mac
 
-首推当然还是MacOS，当然可能受限于条件，没能拥有Mac机器。当然[Hackintosh](https://hackintosh.com/)也是一种可能。
+首推当然还是MacOS，当然可能受限于条件，没能拥有Mac机器。
+
+[Hackintosh](https://hackintosh.com/)也是一种可能的选择。
 
 
 ## Linux
@@ -44,6 +46,13 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 scoop install r
 ```
+
+像前面提到的`Git for Windows`，直接：
+
+```
+scoop install git
+```
+
 
 各种命令就可以安装了， 比如：
 
