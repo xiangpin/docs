@@ -14,6 +14,24 @@
 如果要先上手，我推荐[Antergos](https://antergos.com/)，因为Antergos完全就是原生的Arch，它只不过是做了一个installer而已。
 
 
+Linux必须要学，学Linux会让你打开新世界的大门，会让你对Mac和Windows都有不一样的看法，以及更好的用它们。
+最主要的一点是comforatble to work in command line，请记住这一点，所以不要去玩Linux的桌面，不要去折腾这些。坚持使用一种桌面环境，不要不断去尝试不同的桌面，也不要去搞各种桌面配置。我推荐xfce和i3wm。
+
+Linux怎么学？做为一个走了很多弯路的过来人，我推荐尝试在虚拟机中安装一次gentoo，甚至于lfs，一般Linux的安装和装windows没啥区别，反正是点下一步，会装系统跟不会装系统其实是同一level。你装gentoo或lfs，不看文档是不行的，在安装的过程中会强迫你去看官方的手册，而手册写得非常详细，安装过程可以让你了解Linux系统是由什么组件组合起来的，通过读手册你对linux会有比较清晰的认识。这也是为什么我推荐Arch的另一个原因，Arch同样手册很详细，比gentoo简单点，而且不用浪费时间在编译上，但做为学习gentoo更好，更折腾一点，让安装过程慢一点，对学习是极好的。
+
+再者，学Linux的捷径是学习BASH，你不一定用bash，你可以用python，perl等其它的脚本语言，但bash一定要学一点，因为bash是Linux的外壳，不学bash，不足以知Linux。
+
+我读本科的时候，看过最好的资料是：
+
++ [shell 十三問? ](http://bbs.chinaunix.net/thread-218853-1-1.html)
++ [Bash by example, Part 1](https://www.ibm.com/developerworks/library/l-bash/index.html)
++ [Bash by example, Part 2](https://www.ibm.com/developerworks/library/l-bash2/index.html)
++ [Bash by example, Part 3](https://www.ibm.com/developerworks/library/l-bash3/index.html)
+
+Bash by Example这三篇是非常好的Bash教学材料，真正做到从入门到精通，最后一篇，用实例构建一个`ebuild`系统！`ebuild`是gentoo的包管理系统，最早期的实验版本是bash的，后来推出gentoo，用python写，现在有人用c++写的（funtoo系统）。这里你可以看到用（简单的）bash可以构建出一个系统，自动化下载、编译、安装包。
+
+另外一个比较新的资料是《[The Unix Workbench](https://seankross.com/the-unix-workbench/)》。
+
 ## Windows
 
 Windows也是推荐的，毕竟国内的环境，有时候不投降不行。而用惯命令行用Windows会很不爽。
