@@ -14,3 +14,10 @@ scoop install calibre
 scoop install r
 scoop install rstudio
 ```
+
+### Editor
+
+```
+## Visual Studio Code
+scoop install vscode
+```
