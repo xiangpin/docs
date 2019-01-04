@@ -1,3 +1,6 @@
+A command-line installer for Windows
+----
+
 
 ## 安装Scoop
 
@@ -12,8 +15,9 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 ### Cmder终端
 
+[cmder](http://cmder.net/): portable console emulator for Windows
+ 
 ```
-## Cmder
 scoop install cmder
 ```
 
