@@ -1,16 +1,39 @@
-## 文档
 
-### Epub Reader
+## 安装Scoop
+
+安装很简单，参照[主页](https://scoop.sh/)，只需在Powershell中执行：
 
 ```
-scoop install calibre
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
-## 语言和开发
+## 开发
+
+
+### Cmder终端
+
+```
+## Cmder
+scoop install cmder
+```
+
+Cmder非常好用，而且可以使用CMD, Powershell，bash，WSL等，我基本上只用bash。
+
+### git 
+
+```
+## 命令行
+scoop install git
+
+## github桌面程序
+scoop bucket add extras
+scoop install github
+```
 
 ### R
 
 ```
+## R
 scoop install r
 scoop install rstudio
 ```
@@ -20,4 +43,36 @@ scoop install rstudio
 ```
 ## Visual Studio Code
 scoop install vscode
+
+## Vim
+scoop install vim
+
+## Emacs
+scoop bucket add extras
+scoop install emacs
+
+## spacemacs
+## should have emacs installed
+cd ~
+git clone https://github.com/syl20bnr/spacemacs .emacs.d
+```
+
+## 文档
+
+### Epub Reader
+
+```
+scoop install calibre
+```
+
+
+## 命令行指令
+
+
+```
+## make for pipeline
+scoop install make
+
+## wget for download
+scoop install wget
 ```

@@ -1,27 +1,29 @@
 ## Mac
 
-首推当然还是MacOS，当然可能受限于条件，没能拥有Mac机器。
+首推当然还是MacOS，毕竟MS Office/QQ etc + Unix还是不错的。
 
-[Hackintosh](https://hackintosh.com/)也是一种可能的选择。
+没有Mac机器的情况下，[Hackintosh](https://hackintosh.com/)也是一种可能的选择。
+
++ <https://zhuanlan.zhihu.com/p/31556033>
 
 
 ## Linux
 
-首推Arch Linux，用过绝对欲罢不能。用Arch很多人会推荐Manjaro，原因当然是Arch难装，然而我不推荐，因为Manjaro是基于Arch，而不是Arch，软件仓库是有区别的，有点像ubuntu和debian的感觉。而Arch拥有最多最新的软件。
+首推Arch Linux，用过绝对欲罢不能。用Arch很多人会推荐Manjaro，原因当然是Arch难装，然而我不推荐，因为Manjaro是基于Arch，而不是Arch，软件仓库是有区别的，有点像ubuntu和debian的感觉，而Arch拥有最多最新的软件。
 
 事实上Arch是需要自己安装一遍的，因为在这个过程你会学到很多，并且如果你不能handle安装的话，Arch出问题，你也可能搞不定，所谓能力多大，责任多大，Arch给你自由，你也应该有相应的能力。
 
-如果要先上手，我推荐[Antergos](https://antergos.com/)，因为Antergos完全就是原生的Arch，它只不过是做了一个installer而已。
+如果要先上手，我推荐[Antergos](https://antergos.com/)或者[Anarchy](https://anarchy-linux.org/)，因为它们就是原生的Arch，只不过是做了一个installer而已。
 
 
 Linux必须要学，学Linux会让你打开新世界的大门，会让你对Mac和Windows都有不一样的看法，以及更好的用它们。
-最主要的一点是comforatble to work in command line，请记住这一点，所以不要去玩Linux的桌面，不要去折腾这些。坚持使用一种桌面环境，不要不断去尝试不同的桌面，也不要去搞各种桌面配置。我推荐xfce和i3wm。
+最主要的一点是comforatble to work in command line，请记住这一点，所以不要去玩Linux的桌面，不要去折腾这些。坚持使用一种桌面环境，不要不断去尝试不同的桌面，也不要去搞各种桌面配置。我推荐xfce（简单+可定制，用户友好）和i3wm（平铺，效率高）。
 
 Linux怎么学？做为一个走了很多弯路的过来人，我推荐尝试在虚拟机中安装一次gentoo，甚至于lfs，一般Linux的安装和装windows没啥区别，反正是点下一步，会装系统跟不会装系统其实是同一level。你装gentoo或lfs，不看文档是不行的，在安装的过程中会强迫你去看官方的手册，而手册写得非常详细，安装过程可以让你了解Linux系统是由什么组件组合起来的，通过读手册你对linux会有比较清晰的认识。这也是为什么我推荐Arch的另一个原因，Arch同样手册很详细，比gentoo简单点，而且不用浪费时间在编译上，但做为学习gentoo更好，更折腾一点，让安装过程慢一点，对学习是极好的。
 
-再者，学Linux的捷径是学习BASH，你不一定用bash，你可以用python，perl等其它的脚本语言，但bash一定要学一点，因为bash是Linux的外壳，不学bash，不足以知Linux。
+再者，学Linux的捷径是学习BASH，你不一定用bash，你可以用python，perl等其它的脚本语言，但bash一定要学一点，因为bash是Linux的外壳，不学bash，不足以知Linux。事实上内核是硬件的抽象层，你不需要知道你的数据是怎么写入硬盘的，这是内核要干的事情，而对于我们来说，所谓Linux无非是POSIX和shell。
 
-我读本科的时候，看过最好的资料是：
+我看过最好的资料是：
 
 + [shell 十三問? ](http://bbs.chinaunix.net/thread-218853-1-1.html)
 + [Bash by example, Part 1](https://www.ibm.com/developerworks/library/l-bash/index.html)
@@ -43,53 +45,12 @@ Windows也是推荐的，毕竟国内的环境，有时候不投降不行。而�
 传统做法，当然你可以用虚拟机，WSL之所以受欢迎就是不想切换到虚拟机，然而WSL必定也没有虚拟机这种全面支持，必定也有些限制。
 
 
-那么就只能找原生的bash了，[Git for Windows](https://gitforwindows.org/)就提供了一个bash；Emacs自身也是带有`shell`和`eshell`的，都可以用，但bash真的可以干的事情太少，太多的指令是缺失的，如果是Linux，不单单全，安装也容易，那么如果我们要用跑在Windows上的Bash的话，最重要的是一个所谓的【包管理器】，如同homebrew之于MacOS， apt之于Debian，pacman之于Arch等等。
+那么就只能找原生的bash了，[Git for Windows](https://gitforwindows.org/)就提供了一个bash；Emacs自身也是带有`shell`和`eshell`的，都可以用，但bash真的可以干的事情太少，太多的指令是缺失的（没错，你在shell里用的很多命令都不是shell自己本身的）。
 
-我之前介绍过`Chocolatey`，但用着感觉不爽，因为要管理员身份去安装。我需要一个普通用户随时可以安装软件的管理器，于是我找到了`scoop`，它的理念很像homebrew的装瓶（bottle）和倾倒（poured），基本上下载压缩包，解压这样的绿色操作而已，而软件从那里下载等各种信息，存放于纯文本的json文件中。
+如果是Linux，不单单全，安装也容易，那么如果我们要用跑在Windows上的Bash的话，最重要的是一个所谓的【包管理器】，如同homebrew之于MacOS， apt之于Debian，pacman之于Arch等等，让我们可以安装各种各样的命令行程序。
 
+我之前有用过`Chocolatey`，但用着感觉不爽，因为要管理员身份去安装。我需要一个普通用户随时可以安装软件的管理器，于是我找到了`scoop`，它的理念很像homebrew的装瓶（bottle）和倾倒（poured），基本上下载压缩包，解压这样的绿色操作而已，而软件从那里下载等各种信息，存放于纯文本的json文件中，请移步[Scoop文档](scoop.md)。
 
-安装很简单，参照[主页](https://scoop.sh/)，只需在Powershell中执行：
-
-```
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-```
-
-
-然后就可以`scoop install cmder`安装非常好用的终端`Cmder`.
-
-就可以在Cmder中使用CMD, Powershell，bash，WSL等，我基本上只用bash。
-
-安装R:
-
-```
-scoop install r
-```
-
-像前面提到的`Git for Windows`，直接：
-
-```
-scoop install git
-```
-
-
-各种命令就可以安装了， 比如：
-
-```
-scoop install make
-scoop install wget
-scoop install vim
-```
-
-
-### 安装spacemacs
-
-```
-scoop bucket add extras
-scoop install emacs
-
-cd ~
-git clone https://github.com/syl20bnr/spacemacs .emacs.d
-```
 
 ### ln -s的坑
 
