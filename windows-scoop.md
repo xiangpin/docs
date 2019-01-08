@@ -52,7 +52,7 @@ scoop install vscode
 scoop install vim
 
 ## Emacs
-scoop bucket add extras
+## scoop bucket add extras
 scoop install emacs
 
 ## spacemacs
@@ -66,13 +66,16 @@ git clone https://github.com/syl20bnr/spacemacs .emacs.d
 ### Epub Reader
 
 ```
+## scoop bucket add extras
 scoop install calibre
 ```
 
 ## Browser
 
 ```
-scoop bucket add extras
+## scoop bucket add extras
+
+## Firefox
 ## 普通版本
 scoop install firefox
 ## 开发者版本
