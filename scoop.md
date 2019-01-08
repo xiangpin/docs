@@ -69,6 +69,16 @@ git clone https://github.com/syl20bnr/spacemacs .emacs.d
 scoop install calibre
 ```
 
+## Browser
+
+```
+scoop bucket add extras
+## 普通版本
+scoop install firefox
+## 开发者版本
+scoop install firefox-developer
+```
+
 
 ## 命令行指令
 
