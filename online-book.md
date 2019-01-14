@@ -7,8 +7,9 @@
 
 ## Phylogeny
 
++ [Comparative Methods](https://bookdown.org/bomeara/comparative-methods/)
 + [Data Integration, Manipulation and Visualization of Phylogenetic Trees](https://yulab-smu.github.io/treedata-book/)
-
++ [Ordination Methods for Ecologists](http://ordination.okstate.edu/)
 
 ## R
 
