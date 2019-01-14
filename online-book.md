@@ -29,3 +29,4 @@
 ## Visualization
 
 + [数据可视化入门教程](https://www.yuque.com/mo-college/beginner-tutorial)
++ [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
