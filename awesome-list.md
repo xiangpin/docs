@@ -7,3 +7,4 @@
 + [awesome-github](https://github.com/AntBranch/awesome-github)
 + [awesome-nextflow](https://github.com/nextflow-io/awesome-nextflow)
 + [awesome-single-cell](https://github.com/seandavi/awesome-single-cell)
++ [teach-r](https://github.com/coatless/teach-r)
