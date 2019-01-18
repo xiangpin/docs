@@ -18,14 +18,19 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 [cmder](http://cmder.net/): portable console emulator for Windows
  
 ```
-scoop install cmder
+scoop install cmder-full
 ```
 
 Cmder非常好用，而且可以使用CMD, Powershell，bash，WSL等，我基本上只用bash。
 
+
+
+
 ### git 
 
 ```
+## 如果装cmder-full就不用装git了，因为一并已经装了
+##
 ## 命令行
 scoop install git
 
@@ -69,6 +74,14 @@ git clone https://github.com/syl20bnr/spacemacs .emacs.d
 ## scoop bucket add extras
 scoop install calibre
 ```
+
+### Zotero 
+
+```
+## scoop bucket add extras
+scoop install zotero
+```
+
 
 ## Browser
 
