@@ -16,7 +16,7 @@
 + [An Introduction to Statistical and Data Sciences via R](https://moderndive.com/)
 + [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 + [The tidyverse style guide](https://style.tidyverse.org/)
-
++ [R Course](http://www.john-ros.com/Rcourse/)
 
 ## Statistics
 
