@@ -7,4 +7,5 @@
 
 ## optimization
 
++ [itdepends: 优化包的依赖关系](https://github.com/jimhester/itdepends)
 + [profviz: interactive visualization for profiling R code](https://rstudio.github.io/profvis/)
