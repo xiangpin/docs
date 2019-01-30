@@ -1,3 +1,6 @@
+## Computer Science
+
++ [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 
 ## Phylogeny
 
