@@ -60,7 +60,7 @@ droptax <- function(taxtab, rmode=FALSE, minocc=0, minabu=0){
 ```
 + 可以用[roxygen2](https://github.com/yihui/roxygen2)编写函数使用方法。主要是以#' 开头，包含@title, @description, @param, @return, @export, @author, @examples. 
 + 编写[README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#project-title)，用markdown写。
-+ 编写Makefile 
++ 编写[Makefile](https://github.com/xiangpin/MetaMicrobiome/blob/master/Makefile)
 
 ```
 PKGNAME := $(shell sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)
@@ -91,4 +91,10 @@ clean:
        cd ..;\
        rm -rf $(PKGNAME).Rcheck
 ```
++ 检查，测试. 终端运行：
 
+```
+make
+```
++ 更多的参考资料如下：<http://r-pkgs.had.co.nz/>, <https://cran.r-project.org/doc/contrib/Leisch-CreatingPackages.pdf>, <http://dirk.eddelbuettel.com/papers/r_package_development_nov2014.pdf>, 或者google 搜索 R package development tutorial。
++ 编程开发习惯：<https://style.tidyverse.org>
