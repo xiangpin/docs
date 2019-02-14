@@ -18,4 +18,30 @@
 # R Markdown questions
 + <https://stackoverflow.com/questions/20303826/highlight-bash-shell-code-in-markdown>
 + <https://stackoverflow.com/questions/25104738/text-highlight-in-markdown>
+
+# Writing Mathematic in R Markdown 
++ <http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/>
++ <https://github.com/goessner/mdmath>
+ ## Example
+ ```
+ $$ c^2 = a^2 + b^2 $$
+ ```
+ > $$ c^2 = a^2 + b^2 $$
  
+ ```
+ $ c = \sqrt{a^2+b^2} $
+ ```
+ > $ c = \sqrt{a^2 + b ^2} $
+
+ ```
+ $$ 
+ M = \left( \begin{array}{ccc}
+ x_{11} & x_{12} $ \ldots \\
+ x_{21} & x_{22} $ \ldots \\
+ \vdots & \vdots $ \ldots \\
+ \end{array} \right)
+ $$
+ ```
+ > $$ 
+ M = \left(\begin{array}{ccc} x_{11} & x_{12} & \ldots \\x_{21} & x_{22} & \ldots \\ \vdots & \vdots & \ldots \\ \end{array} \right)
+ $$
