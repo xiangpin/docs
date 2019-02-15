@@ -1,3 +1,4 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # 用R Markdown创建文档
 
 
@@ -5,6 +6,7 @@
     - [blogdown](https://github.com/rstudio/blogdown)
 + Book
     - [bookdown](https://github.com/rstudio/bookdown)
+	- [bookdown](https://bookdown.org/yihui/bookdown/)
 + CV
     - [vitae](https://github.com/ropenscilabs/vitae)
 + Document
@@ -45,3 +47,12 @@
  > $$ 
  M = \left(\begin{array}{ccc} x_{11} & x_{12} & \ldots \\x_{21} & x_{22} & \ldots \\ \vdots & \vdots & \ldots \\ \end{array} \right)
  $$
+
+ ```
+ $$ h_{\theta} = \theta_{0}x + \theta_{1}x \tag{1}\label{eq:test} $$
+ ```
+ > $$\begin{equation} h_{\theta} = \theta_{0}x + \theta_{1}x \tag{1}\label{eq:test} \end{equation}$$
+ 
+ Referring to Eq. $\eqref{eq:test}$.
+
+
