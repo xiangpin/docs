@@ -1,4 +1,3 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # 用R Markdown创建文档
 
 
@@ -33,7 +32,7 @@
  ```
  $ c = \sqrt{a^2+b^2} $
  ```
- > $ c = \sqrt{a^2 + b ^2} $
+ > $`c = \sqrt{a^2 + b ^2}`$
 
  ```
  $$ 
@@ -50,6 +49,7 @@
 
  ```
  $$ h_{\theta} = \theta_{0}x + \theta_{1}x \tag{1}\label{eq:test} $$
+ Referring to Eq. $\eqref{eq:test}$.
  ```
  > $$\begin{equation} h_{\theta} = \theta_{0}x + \theta_{1}x \tag{1}\label{eq:test} \end{equation}$$
  
