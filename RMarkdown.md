@@ -25,23 +25,29 @@
 + <https://github.com/goessner/mdmath>
  ## Example
  ```
- <p align="center"><img src="/tex/7588eefc6e080bcc9f4f1cab40ece714.svg?invert_in_darkmode&sanitize=true" align=middle width=86.16804239999999pt height=15.572667pt/></p>
+ $$ c^2 = a^2 + b^2 $$
  ```
  > <p align="center"><img src="/tex/7588eefc6e080bcc9f4f1cab40ece714.svg?invert_in_darkmode&sanitize=true" align=middle width=86.16804239999999pt height=15.572667pt/></p>
  
  ```
- <img src="/tex/73e7e9c659e76c3a39d414e5ac419ec9.svg?invert_in_darkmode&sanitize=true" align=middle width=93.31412144999999pt height=28.712280299999996pt/>
+ $ c = \sqrt{a^2+b^2} $
  ```
  > <img src="/tex/30fa3f17e7c323c7585f3c6445b8624b.svg?invert_in_darkmode&sanitize=true" align=middle width=93.31412144999999pt height=28.712280299999996pt/>
 
  ```
- <p align="center"><img src="/tex/da9eb3613bbd9ada7c3238f5eb05e326.svg?invert_in_darkmode&sanitize=true" align=middle width=175.34243264999998pt height=69.04177335pt/></p>
+ $$
+ M = \left(\begin{array}{ccc}
+ x_{11} & x_{12} & \ldots \\
+ x_{21} & x_{22} & \ldots \\
+ \vdots & \vdots & \ldots \\
+ \end{array}\right)
+ $$
  ```
  > <p align="center"><img src="/tex/9f79bddd902248f01cd901cf899a6230.svg?invert_in_darkmode&sanitize=true" align=middle width=183.5615364pt height=69.04177335pt/></p>
 
  ```
- <p align="center"><img src="/tex/7af77a617f43969eb1ac0e2ab43e3a01.svg?invert_in_darkmode&sanitize=true" align=middle width=107.8897842pt height=13.881256950000001pt/></p>
- Referring to Eq. <img src="/tex/4b787ab623e8628ac80a613b7a736a1c.svg?invert_in_darkmode&sanitize=true" align=middle width=30.63921959999999pt height=24.65753399999998pt/>.
+ $$ h_{\theta} = \theta_{0}x + \theta_{1}x \tag{1}\label{eq:test} $$
+ Referring to Eq. $\eqref{eq:test}$.
  ```
  > <p align="center"><img src="/tex/e890b93fcc606de3d83b375f1ea6f682.svg?invert_in_darkmode&sanitize=true" align=middle width=404.0818518pt height=16.438356pt/></p>
  
